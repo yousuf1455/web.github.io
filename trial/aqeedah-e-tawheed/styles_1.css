@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,7 @@
 body {
   font-family: "DM Sans", sans-serif;
   color: var(--primary);
-  background-color: #efefef;
+  background-color: var(--white);
 }
 
 .container {
@@ -37,9 +38,7 @@ body {
   color: white;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -78,18 +77,19 @@ p {
 }
 
 .aqeeda-tawheed-sifaat {
-  background-color:white;
+  background-color: white;
   padding: 20px;
   border: 1px solid white;
   border-radius: 5px;
 }
 
 .shirk-kise-kehte-hai {
-  background-color:white;
+  background-color: white;
   padding: 20px;
   border: 1px solid white;
   border-radius: 5px;
 }
+
 .shirk-ke-qisme {
   background-color: #f2f2f2d8;
   padding: 20px;
@@ -120,8 +120,53 @@ p {
   margin-bottom: 10px;
 }
 
-
 @media screen and (max-width: 768px) {
-}
+ 
+h1 {
+    font-size: 32px;
+  }
 
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+.container {
+    padding: 12px;
+  }
+
+  .header {
+    padding: 30px 0;
+  }
+
+  .container + .container {
+    margin-top: 30px;
+  }
+
+  
+.container:nth-child(2),
+  .container:nth-child(3) {
+    margin-top: 40px;
+  }
+
+ 
+.shirk-ke-qisme h2 {
+    font-size: 20px;
+  }
+
+  .shirk-ke-qisme ol {
+    margin-bottom: 15px;
+  }
+
+  .shirk-ke-qisme h3 {
+    font-size: 18px;
+  }
+
+  .shirk-ke-qisme h4 {
+    font-size: 16px;
+  }
+}
 

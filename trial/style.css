@@ -333,6 +333,13 @@ footer p {
     font-size: 0.9rem;
     margin: 0;
 }
+:root {
+    --primary: #536942;
+    --secondary: #ffffff;
+  }
+  
+ 
+  
 
 @media screen and (max-width:520px){
     .menu-btn{
